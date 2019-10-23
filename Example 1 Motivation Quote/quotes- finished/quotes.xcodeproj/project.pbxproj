@@ -99,17 +99,18 @@
 				TargetAttributes = {
 					52464A7E1CD3B1250041F6CB = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 593ZXM85A3;
+						DevelopmentTeam = 9HVHM5PPH2;
 						DevelopmentTeamName = "Duc Tran";
 						LastSwiftMigration = 0800;
 					};
 				};
 			};
-			buildConfigurationList = 52464A7A1CD3B1250041F6CB /* Build configuration list for PBXProject "Quotes" */;
+			buildConfigurationList = 52464A7A1CD3B1250041F6CB /* Build configuration list for PBXProject "quotes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -258,12 +259,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9HVHM5PPH2;
 				INFOPLIST_FILE = Quotes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.developersacademy.Quotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -271,20 +273,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9HVHM5PPH2;
 				INFOPLIST_FILE = Quotes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.developersacademy.Quotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52464A7A1CD3B1250041F6CB /* Build configuration list for PBXProject "Quotes" */ = {
+		52464A7A1CD3B1250041F6CB /* Build configuration list for PBXProject "quotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52464A8F1CD3B1250041F6CB /* Debug */,
