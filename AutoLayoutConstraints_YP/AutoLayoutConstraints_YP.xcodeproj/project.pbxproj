@@ -13,6 +13,17 @@
 		068BDFE123C45FD6009C1C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFDF23C45FD6009C1C13 /* Main.storyboard */; };
 		068BDFE323C45FF2009C1C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFE223C45FF2009C1C13 /* Assets.xcassets */; };
 		068BDFE623C45FF2009C1C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFE423C45FF2009C1C13 /* LaunchScreen.storyboard */; };
+		068BDFEE23C49596009C1C13 /* SampleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068BDFED23C4958E009C1C13 /* SampleTableView.swift */; };
+		068BDFF023C49752009C1C13 /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068BDFEF23C49752009C1C13 /* SampleTableViewCell.swift */; };
+		068BDFFB23C49C37009C1C13 /* Geranium.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFF223C49C34009C1C13 /* Geranium.png */; };
+		068BDFFC23C49C37009C1C13 /* Iris.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFF323C49C34009C1C13 /* Iris.png */; };
+		068BDFFD23C49C37009C1C13 /* Tulip.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFF423C49C34009C1C13 /* Tulip.png */; };
+		068BDFFE23C49C37009C1C13 /* WaterLily.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFF523C49C35009C1C13 /* WaterLily.png */; };
+		068BDFFF23C49C37009C1C13 /* Rose.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFF623C49C35009C1C13 /* Rose.png */; };
+		068BE00023C49C37009C1C13 /* Daffodil.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFF723C49C35009C1C13 /* Daffodil.png */; };
+		068BE00123C49C37009C1C13 /* Chrysanthemum.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFF823C49C35009C1C13 /* Chrysanthemum.png */; };
+		068BE00223C49C37009C1C13 /* Crocus.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFF923C49C36009C1C13 /* Crocus.png */; };
+		068BE00323C49C37009C1C13 /* Orchid.png in Resources */ = {isa = PBXBuildFile; fileRef = 068BDFFA23C49C37009C1C13 /* Orchid.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		068BDFE223C45FF2009C1C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		068BDFE523C45FF2009C1C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		068BDFE723C45FF2009C1C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068BDFED23C4958E009C1C13 /* SampleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableView.swift; sourceTree = "<group>"; };
+		068BDFEF23C49752009C1C13 /* SampleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
+		068BDFF223C49C34009C1C13 /* Geranium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Geranium.png; sourceTree = "<group>"; };
+		068BDFF323C49C34009C1C13 /* Iris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Iris.png; sourceTree = "<group>"; };
+		068BDFF423C49C34009C1C13 /* Tulip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tulip.png; sourceTree = "<group>"; };
+		068BDFF523C49C35009C1C13 /* WaterLily.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WaterLily.png; sourceTree = "<group>"; };
+		068BDFF623C49C35009C1C13 /* Rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rose.png; sourceTree = "<group>"; };
+		068BDFF723C49C35009C1C13 /* Daffodil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Daffodil.png; sourceTree = "<group>"; };
+		068BDFF823C49C35009C1C13 /* Chrysanthemum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chrysanthemum.png; sourceTree = "<group>"; };
+		068BDFF923C49C36009C1C13 /* Crocus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Crocus.png; sourceTree = "<group>"; };
+		068BDFFA23C49C37009C1C13 /* Orchid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orchid.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,34 @@
 		068BDFD823C45FD6009C1C13 /* AutoLayoutConstraints_YP */ = {
 			isa = PBXGroup;
 			children = (
+				068BDFF123C49B76009C1C13 /* Images */,
 				068BDFD923C45FD6009C1C13 /* AppDelegate.swift */,
 				068BDFDB23C45FD6009C1C13 /* SceneDelegate.swift */,
 				068BDFDD23C45FD6009C1C13 /* ViewController.swift */,
+				068BDFED23C4958E009C1C13 /* SampleTableView.swift */,
+				068BDFEF23C49752009C1C13 /* SampleTableViewCell.swift */,
 				068BDFDF23C45FD6009C1C13 /* Main.storyboard */,
 				068BDFE223C45FF2009C1C13 /* Assets.xcassets */,
 				068BDFE423C45FF2009C1C13 /* LaunchScreen.storyboard */,
 				068BDFE723C45FF2009C1C13 /* Info.plist */,
 			);
 			path = AutoLayoutConstraints_YP;
+			sourceTree = "<group>";
+		};
+		068BDFF123C49B76009C1C13 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				068BDFF823C49C35009C1C13 /* Chrysanthemum.png */,
+				068BDFF923C49C36009C1C13 /* Crocus.png */,
+				068BDFF723C49C35009C1C13 /* Daffodil.png */,
+				068BDFF223C49C34009C1C13 /* Geranium.png */,
+				068BDFF323C49C34009C1C13 /* Iris.png */,
+				068BDFFA23C49C37009C1C13 /* Orchid.png */,
+				068BDFF623C49C35009C1C13 /* Rose.png */,
+				068BDFF423C49C34009C1C13 /* Tulip.png */,
+				068BDFF523C49C35009C1C13 /* WaterLily.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +166,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068BE00123C49C37009C1C13 /* Chrysanthemum.png in Resources */,
+				068BDFFD23C49C37009C1C13 /* Tulip.png in Resources */,
+				068BE00323C49C37009C1C13 /* Orchid.png in Resources */,
+				068BE00023C49C37009C1C13 /* Daffodil.png in Resources */,
 				068BDFE623C45FF2009C1C13 /* LaunchScreen.storyboard in Resources */,
+				068BE00223C49C37009C1C13 /* Crocus.png in Resources */,
 				068BDFE323C45FF2009C1C13 /* Assets.xcassets in Resources */,
+				068BDFFE23C49C37009C1C13 /* WaterLily.png in Resources */,
+				068BDFFF23C49C37009C1C13 /* Rose.png in Resources */,
+				068BDFFC23C49C37009C1C13 /* Iris.png in Resources */,
 				068BDFE123C45FD6009C1C13 /* Main.storyboard in Resources */,
+				068BDFFB23C49C37009C1C13 /* Geranium.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +189,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				068BDFDE23C45FD6009C1C13 /* ViewController.swift in Sources */,
+				068BDFEE23C49596009C1C13 /* SampleTableView.swift in Sources */,
+				068BDFF023C49752009C1C13 /* SampleTableViewCell.swift in Sources */,
 				068BDFDA23C45FD6009C1C13 /* AppDelegate.swift in Sources */,
 				068BDFDC23C45FD6009C1C13 /* SceneDelegate.swift in Sources */,
 			);
