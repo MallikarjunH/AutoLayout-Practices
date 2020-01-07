@@ -41,7 +41,7 @@
                                     <color key="titleColor" red="0.05951015346" green="0.9978423367" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ZuR-jQ-due" kind="show" id="QlB-dr-bHK"/>
+                                    <segue destination="ZuR-jQ-due" kind="show" id="TpA-Cz-vSQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -109,23 +109,77 @@
                                     <color key="titleColor" red="0.05951015346" green="0.9978423367" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJZ-wi-Bqg">
+                                <rect key="frame" x="201" y="353" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nC-Te-Eht">
+                                <rect key="frame" x="157" y="353" width="582" height="40"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="1Nt-pe-wdq"/>
+                                    <constraint firstAttribute="height" constant="40" id="Psd-ut-0Or"/>
+                                    <constraint firstAttribute="height" constant="40" id="bQD-c1-Vov"/>
+                                </constraints>
+                                <state key="normal" title="FEATURE BUTTON">
+                                    <color key="titleColor" red="0.05951015346" green="0.9978423367" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Psd-ut-0Or"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="1Nt-pe-wdq"/>
+                                        <include reference="Psd-ut-0Or"/>
+                                        <exclude reference="bQD-c1-Vov"/>
+                                    </mask>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="hoQ-Lo-Y62" firstAttribute="leading" secondItem="2Nf-It-FNn" secondAttribute="leading" id="0W9-hi-vhX"/>
                             <constraint firstItem="zhZ-0C-vEB" firstAttribute="centerY" secondItem="WeP-tD-7dg" secondAttribute="centerY" id="3HN-rn-C4g"/>
+                            <constraint firstItem="6nC-Te-Eht" firstAttribute="leading" secondItem="hoQ-Lo-Y62" secondAttribute="trailing" constant="18" id="3hL-QT-6xm"/>
                             <constraint firstItem="4Cp-jR-g0l" firstAttribute="bottom" secondItem="2Nf-It-FNn" secondAttribute="bottom" id="CDm-jL-2A9"/>
                             <constraint firstItem="zhZ-0C-vEB" firstAttribute="centerX" secondItem="WeP-tD-7dg" secondAttribute="centerX" id="QEH-dV-gmz"/>
+                            <constraint firstItem="6nC-Te-Eht" firstAttribute="bottom" secondItem="2Nf-It-FNn" secondAttribute="bottom" id="Rh9-Ps-fJS"/>
+                            <constraint firstItem="4Cp-jR-g0l" firstAttribute="leading" secondItem="6nC-Te-Eht" secondAttribute="trailing" constant="18" id="igA-nn-2Ij"/>
                             <constraint firstItem="2Nf-It-FNn" firstAttribute="trailing" secondItem="4Cp-jR-g0l" secondAttribute="trailing" id="lj0-4E-4br"/>
                             <constraint firstItem="hoQ-Lo-Y62" firstAttribute="bottom" secondItem="2Nf-It-FNn" secondAttribute="bottom" id="wRV-8e-Z3o"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2Nf-It-FNn"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="NJZ-wi-Bqg"/>
+                                <exclude reference="6nC-Te-Eht"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="3hL-QT-6xm"/>
+                                <exclude reference="Rh9-Ps-fJS"/>
+                                <exclude reference="igA-nn-2Ij"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="subviews">
+                                <exclude reference="NJZ-wi-Bqg"/>
+                                <include reference="6nC-Te-Eht"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="3hL-QT-6xm"/>
+                                <include reference="Rh9-Ps-fJS"/>
+                                <include reference="igA-nn-2Ij"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="e9c-yq-Vxh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CcC-u7-vYC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="882.60869565217399" y="138.61607142857142"/>
+            <point key="canvasLocation" x="882.58928571428567" y="137.68115942028987"/>
         </scene>
     </scenes>
 </document>
