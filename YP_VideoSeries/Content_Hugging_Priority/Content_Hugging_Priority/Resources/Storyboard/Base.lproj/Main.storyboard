@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="B1v-hp-dZu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="B1v-hp-dZu">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,13 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skY-yP-lh9">
-                                <rect key="frame" x="10" y="173" width="394" height="122"/>
-                                <string key="text">It  is a design pattern commonly used in computer programming to defer initialization of an object until the point at which it is needed. It can contribute to efficiency in the program's operation if properly and appropriately used. The opposite of lazy loading is eager loading</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lU-c6-fyg">
                                 <rect key="frame" x="20" y="775" width="374" height="87"/>
                                 <constraints>
@@ -33,14 +26,21 @@
                                     <segue destination="4jp-NC-BrT" kind="show" id="14y-in-QbB"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asC-4p-twa">
+                                <rect key="frame" x="20" y="138" width="374" height="122"/>
+                                <string key="text">It  is a design pattern commonly used in computer programming to defer initialization of an object until the point at which it is needed. It can contribute to efficiency in the program's operation if properly and appropriately used. The opposite of lazy loading is eager loading</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="7lU-c6-fyg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0ev-LI-6dC"/>
-                            <constraint firstItem="skY-yP-lh9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="85" id="8XU-kU-90Q"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7lU-c6-fyg" secondAttribute="bottom" id="Gvn-J2-JaO"/>
-                            <constraint firstItem="skY-yP-lh9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Tfa-bV-7gx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="skY-yP-lh9" secondAttribute="trailing" constant="10" id="nFh-xF-lCB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="asC-4p-twa" secondAttribute="trailing" constant="20" id="VmB-NH-r73"/>
+                            <constraint firstItem="asC-4p-twa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="bjI-Zp-o0H"/>
+                            <constraint firstItem="asC-4p-twa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cdx-He-IfU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7lU-c6-fyg" secondAttribute="trailing" constant="20" id="yM7-4j-hwS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -51,7 +51,7 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="138.61607142857142"/>
         </scene>
-        <!--Content Hugging Priority Eg 1-->
+        <!--Content Hugging Priority-->
         <scene sceneID="SVq-lN-lKW">
             <objects>
                 <viewController id="4jp-NC-BrT" sceneMemberID="viewController">
@@ -59,29 +59,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rW8-Kc-O27">
-                                <rect key="frame" x="20" y="201" width="128" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BpP-uh-liK">
+                                <rect key="frame" x="20" y="138" width="51" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCO-cf-a4q">
-                                <rect key="frame" x="249" y="196" width="128" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyO-wx-rsy">
+                                <rect key="frame" x="76" y="138" width="318" height="142.5"/>
+                                <string key="text">It  is a design pattern commonly used in computer programming to defer initialization of an object until the point at which it is needed. It can contribute to efficiency in the program's operation if properly and appropriately used. The opposite of lazy loading is eager loading</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BpP-uh-liK" firstAttribute="top" secondItem="VIG-AC-vgg" secondAttribute="top" constant="50" id="JZE-NM-NWQ"/>
+                            <constraint firstItem="BpP-uh-liK" firstAttribute="leading" secondItem="VIG-AC-vgg" secondAttribute="leading" constant="20" id="Q62-GN-UkS"/>
+                            <constraint firstItem="VIG-AC-vgg" firstAttribute="trailing" secondItem="nyO-wx-rsy" secondAttribute="trailing" constant="20" id="Ux7-hO-k7J"/>
+                            <constraint firstItem="nyO-wx-rsy" firstAttribute="top" secondItem="VIG-AC-vgg" secondAttribute="top" constant="50" id="tXJ-ax-iRr"/>
+                            <constraint firstItem="nyO-wx-rsy" firstAttribute="leading" secondItem="BpP-uh-liK" secondAttribute="trailing" constant="5" id="uG7-Iz-0XC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VIG-AC-vgg"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Content Hugging Priority Eg 1" id="xWF-ug-CRw"/>
+                    <navigationItem key="navigationItem" title="Content Hugging Priority" id="xWF-ug-CRw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TY7-uP-O6c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1802.8985507246377" y="138.61607142857142"/>
+            <point key="canvasLocation" x="2023.1884057971015" y="138.61607142857142"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hka-Rb-Iye">
