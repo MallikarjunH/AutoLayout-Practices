@@ -54,7 +54,7 @@
         <!--Content Hugging Priority-->
         <scene sceneID="SVq-lN-lKW">
             <objects>
-                <viewController id="4jp-NC-BrT" sceneMemberID="viewController">
+                <viewController id="4jp-NC-BrT" customClass="ContentHuggingPriority" customModule="Content_Hugging_Priority" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HAC-v1-OSY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -106,7 +106,7 @@
         <!--Example 2-->
         <scene sceneID="Bsw-zx-d8l">
             <objects>
-                <viewController id="X4n-rL-o0r" sceneMemberID="viewController">
+                <viewController id="X4n-rL-o0r" customClass="ContentHuggingPriority2" customModule="Content_Hugging_Priority" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="avq-A6-6EF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -166,7 +166,7 @@
         <!--Example 3-->
         <scene sceneID="J4s-b6-rSK">
             <objects>
-                <viewController id="p37-Av-cMx" sceneMemberID="viewController">
+                <viewController id="p37-Av-cMx" customClass="ContentHuggingPriority3" customModule="Content_Hugging_Priority" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dbw-aZ-Nd1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

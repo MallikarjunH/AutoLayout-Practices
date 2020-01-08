@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		064D28E823C5B8D000F892DB /* ContentHuggingPriority2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064D28E723C5B8D000F892DB /* ContentHuggingPriority2.swift */; };
+		064D28EA23C5B8DD00F892DB /* ContentHuggingPriority3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064D28E923C5B8DD00F892DB /* ContentHuggingPriority3.swift */; };
 		06691D03238BFB45004215F8 /* ContentHuggingPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06691D02238BFB45004215F8 /* ContentHuggingPriority.swift */; };
 		067B58BE23880665005348B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B58BD23880665005348B1 /* AppDelegate.swift */; };
 		067B58C023880665005348B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B58BF23880665005348B1 /* SceneDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		064D28E723C5B8D000F892DB /* ContentHuggingPriority2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHuggingPriority2.swift; sourceTree = "<group>"; };
+		064D28E923C5B8DD00F892DB /* ContentHuggingPriority3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHuggingPriority3.swift; sourceTree = "<group>"; };
 		06691D02238BFB45004215F8 /* ContentHuggingPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHuggingPriority.swift; sourceTree = "<group>"; };
 		067B58BA23880665005348B1 /* Content_Hugging_Priority.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Content_Hugging_Priority.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067B58BD23880665005348B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 			children = (
 				067B58C123880665005348B1 /* ViewController.swift */,
 				06691D02238BFB45004215F8 /* ContentHuggingPriority.swift */,
+				064D28E723C5B8D000F892DB /* ContentHuggingPriority2.swift */,
+				064D28E923C5B8DD00F892DB /* ContentHuggingPriority3.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -206,7 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				067B58C223880665005348B1 /* ViewController.swift in Sources */,
+				064D28E823C5B8D000F892DB /* ContentHuggingPriority2.swift in Sources */,
 				06691D03238BFB45004215F8 /* ContentHuggingPriority.swift in Sources */,
+				064D28EA23C5B8DD00F892DB /* ContentHuggingPriority3.swift in Sources */,
 				067B58BE23880665005348B1 /* AppDelegate.swift in Sources */,
 				067B58C023880665005348B1 /* SceneDelegate.swift in Sources */,
 			);
