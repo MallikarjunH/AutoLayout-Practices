@@ -1,6 +1,13 @@
 # AutoLayout-Practices
 This repository contains various examples of code with Swift + Objective-C
 
+Creating Label - Dynamically
+
+https://www.youtube.com/watch?v=l4pEnApXtTU
+
+Content Hugging Priority and Content Compression Resistance Priority
+
+https://www.youtube.com/watch?v=4AUT456tXV4
 
 Auto Layout - Vary for Traits
 
